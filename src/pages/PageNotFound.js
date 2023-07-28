@@ -4,7 +4,7 @@ import { Button } from "../components"
 import  PageNotFoundImage  from "../assets/images/pagenotfound.png"
 export const PageNotFound = () => {
 
-const pageTitle = useTitle(`Page Not Found`);
+useTitle(`Page Not Found`);
  
   return (
     <main>
